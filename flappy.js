@@ -89,8 +89,6 @@ var CONFIG = {
 
 // Sprite: Flapper
 
-'use strict';
-
 var Flapper = function(game) {
   this.config = CONFIG; 
   Phaser.Sprite.call(this, game, this.config.flappy.x, game.world.centerY, 'flappy',1);
